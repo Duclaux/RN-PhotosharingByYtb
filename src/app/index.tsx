@@ -4,7 +4,7 @@ import React from 'react'
 export default function index() {
   return (
     <View>
-      <Text>this is my index home page</Text>
+      <Text className='text-2xl font-bold text-white'>this is my index home page</Text>
     </View>
   )
 }
