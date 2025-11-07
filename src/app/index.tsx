@@ -1,10 +1,13 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import { Link } from 'expo-router'
 
 export default function index() {
   return (
-    <View>
-      <Text className='text-2xl font-bold text-white'>this is my index home page</Text>
-    </View>
+    <View className='flex-1 justify-center items-center'>
+      <Link href="/camera" className='text-white'>
+        Camera
+      </Link>
+     </View>
   )
 }
